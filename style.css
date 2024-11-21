@@ -1,0 +1,557 @@
+/* Navigasi */
+nav.navbar {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: white;
+}
+
+nav.navbar .collapse .navbar-nav .nav-item .nav-link,
+nav.navbar .container-fluid .navbar-brand {
+  color: #462a24;
+}
+
+nav.navbar .collapse .navbar-nav .nav-item .nav-link:hover
+{
+  color: #FFD700;
+
+}
+
+nav.navbar.collapse .navbar-nav {
+  white-space: nowrap;
+}
+/* Akhir Navigasi */
+
+/* Menu */
+
+div.container-fluid#menu {
+  background-color: #ccc;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+div.container-fluid#menu .sub-judul-menu h1 {
+  word-spacing: 7px;
+  padding: 100px;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #462a24;
+}
+
+div.container-fluid .menu {
+  width: 47%;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+
+}
+
+div.container-fluid .menu .rounded {
+  background-color: #462a24;
+  transition: all .5s;
+}
+div.container-fluid .menu .rounded:hover {
+  background-color: #FFD700;
+}
+
+div.container-fluid div.menu .container-harga {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #462a24;
+}
+
+/* Akhir Menu */
+
+/* About */
+
+.container-fluid#about {
+  margin: 100px, 0;
+  padding-bottom: 100px;
+}
+
+.container-fluid#about h1 {
+  word-spacing: 7px;
+  padding: 100px;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  color: #462a24;
+}
+
+.container-fluid#about .container-text-about h2 {
+  word-spacing: 6px;
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  padding-bottom: 30px;
+  color: #462a24;
+}
+
+.container-fluid#about .pembungkus-img-dan-text img .container-img-about {
+  width: 50%;
+}
+
+.container-fluid#about .container-text-about p {
+  word-spacing: 3px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  opacity: 1;
+  color: #462a24;
+}
+
+.container-fluid#about .container-text-about {
+  width: 50%;
+}
+
+.container-fluid#about .container-text-about .icon-link .container-icons-about {
+  padding-top: 30px;
+}
+
+.container-fluid#about .container-text-about .icon-link img {
+  width: 100px;
+}
+.container-fluid#about .container-text-about .icon-link p {
+  word-spacing: 3px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  opacity: 1;
+  color: #462a24;
+}
+
+/* Acordian About */
+
+.container-fluid#about .pembungkus-acordian {
+  width: 75%;
+}
+
+.container-fluid#about .pembungkus-acordian {
+  padding-top: 60px;
+}
+
+.container-fluid#about .pembungkus-acordian .accordion .accordion-item {
+  margin-top: 5px;
+  border-top: 1px solid #ccc;
+}
+
+.container-fluid#about .pembungkus-acordian .accordion h5 {
+  word-spacing: 6px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  color: #462a24;
+}
+
+.container-fluid#about .pembungkus-acordian .accordion p {
+  word-spacing: 3px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  color: #462a24;
+}
+
+/* Akhir About */
+
+/* Awal Order */
+
+.container-fluid#order {
+  background-color: #ccc;
+  margin: 100px, 0;
+  padding-bottom: 100px;
+}
+
+.container-fluid#order h1 {
+  word-spacing: 7px;
+  padding: 100px;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  color: #462a24;
+}
+
+/* Coursel */
+.testimonial h2 {
+  word-spacing: 6px;
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  /* padding: 100px; */
+  color: #462a24;
+}
+
+.testimonial .carousel-inner .carousel-item img {
+  width: 90%;
+  border: 10px;
+}
+
+/* Akhir Order */
+
+/* Awal Contact */
+
+.container-contact#contact {
+  padding-bottom: 150px;
+}
+
+.container-contact#contact h1 {
+  word-spacing: 7px;
+  padding: 100px;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  color: rgb(70, 42, 36);
+}
+
+.container-contact#contact .pembungkus-icon-contact .inner-icon-contact {
+  padding-bottom: 100px;
+}
+
+.container-contact#contact
+  .pembungkus-icon-contact
+  .inner-icon-contact
+  .item-icon-contact {
+  width: 280px;
+  height: 280px;
+  border: 2px solid rgba(70, 42, 36, 0.3);
+  box-shadow: 10px 10px 15px rgba(70, 42, 36, 0.3);
+  border-radius: 6px;
+}
+
+.container-contact#contact
+  .pembungkus-icon-contact
+  .inner-icon-contact
+  .item-icon-contact
+  svg {
+  margin-top: -30px;
+  margin-bottom: 30px;
+  transition: all 0.4s;
+}
+
+.container-contact#contact
+  .pembungkus-icon-contact
+  .inner-icon-contact
+  .item-icon-contact
+  svg:hover {
+  transform: scaleX(-1);
+}
+
+.container-contact#contact
+  .pembungkus-icon-contact
+  .inner-icon-contact
+  .item-icon-contact
+  h3 {
+  word-spacing: 6px;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  color: #462a24;
+  padding: 13px;
+}
+
+.container-contact#contact
+  .pembungkus-icon-contact
+  .inner-icon-contact
+  .item-icon-contact
+  p {
+  word-spacing: 3px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  opacity: 0.9;
+  color: #462a24;
+}
+
+/* Maps */
+.container-contact#contact .peta {
+  filter: grayscale(100);
+}
+
+/* Form */
+.container-contact#contact .pembungkus-form-dan-h2 {
+  background-color: white;
+  border: 2px solid rgba(70, 42, 36, 0.3);
+  box-shadow: 10px 10px 15px rgba(70, 42, 36, 0.3);
+  margin-top: -11%;
+  z-index: 999;
+  position: relative;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.container-contact#contact .pembungkus-form-dan-h2 h2 {
+  word-spacing: 6px;
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #462a24;
+}
+
+.container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form label,
+.container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form input,
+.container-contact#contact
+  .pembungkus-form-dan-h2
+  .pembungkus-form
+  input::placeholder,
+  .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form textarea,
+  .container-contact#contact
+  .pembungkus-form-dan-h2
+  .pembungkus-form
+  textarea::placeholder {
+  word-spacing: 3px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  opacity: 0.9;
+  color: #462a24;
+}
+
+.container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form .btn {
+  text-transform: uppercase;
+  word-spacing: 3px;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  opacity: 0.9;
+  background-color: #462a24;
+  color: white;
+  width: 25%;
+}
+
+.container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form input:focus,
+.container-contact#contact
+  .pembungkus-form-dan-h2
+  .pembungkus-form
+  textarea:focus {
+  box-shadow: 5px 2px 5px rgba(70, 42, 36, 0.3);
+  border: 1px solid rgba(70, 42, 36, 0.3);
+}
+
+/* Akhir Contact */
+
+/* Awal Footer */
+
+footer .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+footer .pembungkus-footer {
+  background-color: #462a24;
+  background-color: #FFD700;
+  padding-top: 60px;
+}
+
+footer .pembungkus-footer .info-footer {
+  padding-bottom: 100px;
+
+}
+
+footer .pembungkus-footer .info-footer h5{
+  color: #462a24;
+  word-spacing: 6px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+}
+
+footer .pembungkus-footer .info-footer a {
+  margin: 0;
+  padding: 0;
+}
+
+footer .pembungkus-footer .info-footer p{
+  color: #462a24;
+  word-spacing: 3px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  opacity: 0.9;
+
+}
+
+footer .pembungkus-footer-text {
+  background-color: #462a24;
+  padding-block: 25px;
+  color: #FFD700;
+  word-spacing: 3px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  opacity: 0.9;
+
+}
+/* Akhir Footer */
+
+@media screen and (max-width: 576px) {
+  /* Menu */
+  div.container-fluid .menu {
+    width: auto;
+  }
+  /* Akhir Menu */
+
+  /* About */
+  .container-fluid#about .pembungkus-img-dan-text .container-img-about img {
+    width: 100%;
+  }
+
+  .container-fluid#about .pembungkus-img-dan-text .container-text-about {
+    width: 100%;
+  }
+
+  /* Acordian About */
+  .container-fluid#about .pembungkus-acordian {
+    width: 100%;
+  }
+  /* Akhir About */
+
+  /* Awal Order */
+
+  /* Coursel */
+  .testimonial .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  /* Akhir Order */
+
+  /* Awal Contact */
+  .container-contact#contact .pembungkus-form-dan-h2 {
+    margin-top: -35%;
+  }
+
+  .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form .btn  {
+    width: 50%;
+  }
+  /* Akhir Contact */
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /* Menu */
+  div.container-fluid .menu {
+    width: auto;
+  }
+
+  /* Akhir Menu */
+
+  /* About */
+  .container-fluid#about .pembungkus-img-dan-text .container-img-about img {
+    width: 100%;
+  }
+
+  .container-fluid#about .pembungkus-img-dan-text .container-text-about {
+    width: 100%;
+  }
+
+  /* Acordian About */
+  .container-fluid#about .pembungkus-acordian {
+    width: 100%;
+  }
+  /* Akhir About */
+
+  /* Awal Order */
+
+  /* Coursel */
+  .testimonial .carousel-inner .carousel-item img {
+    width: 100%;
+    border: 2px solid rgba(70, 42, 36, 0.3);
+    box-shadow: 10px 10px 15px rgba(70, 42, 36, 0.3);
+  }
+  /* Akhir Order */
+
+  /* Contact */
+  .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form .btn  {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* Menu */
+  div.container-fluid .menu {
+    width: auto;
+  }
+  /* Akhir Menu */
+
+  /* About */
+  .container-fluid#about .container-img-about img {
+    width: 100%;
+  }
+
+  .container-fluid#about .container-text-about {
+    width: 100%;
+  }
+
+  /* Acordian About */
+  .container-fluid#about .pembungkus-acordian {
+    width: 100%;
+  }
+  /* Akhir About */
+  /* Awal Order */
+
+  /* Coursel */
+  .testimonial .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  /* Akhir Order */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* Navbar */
+  nav.navbar .collapse .navbar-nav .nav-item a:hover {
+    border-bottom: 3px solid #462a24;
+  }
+  /* Akhir Navbar */
+  /* About */
+  .container-fluid#about container-img-about .container-img-about img {
+    width: 47%;
+  }
+
+  .container-fluid#about .pembungkus-img-dan-text .container-text-about {
+    width: 44%;
+  }
+
+  /* Acordian About */
+  .container-fluid#about .pembungkus-acordian {
+    width: 85%;
+  }
+
+  /* Akhir About */
+
+  /* Awal Order */
+
+  /* Coursel */
+
+  .testimonial .carousel-inner {
+    width: 90%;
+  }
+
+  .testimonial .carousel-inner .carousel-item img {
+    width: 90%;
+  }
+  /* Akhir Order */
+}
+
+@media screen and (min-width: 992px) {
+  /* Navbar */
+  nav.navbar .collapse .navbar-nav .nav-item a:hover {
+    border-bottom: 3px solid #FFD700;
+  }
+  /* Akhir Navbar */
+
+  /* Contact */
+  /* Form */
+  .container-contact#contact .pembungkus-form-dan-h2 {
+    width: 77%;
+  }
+  /* Akhir Contact */
+}
+@media screen and (min-width: 992px) and (max-width: 1600px) {
+  /* Awal Order */
+
+  /* Coursel */
+
+  .testimonial .carousel-inner {
+    width: 70%;
+  }
+
+  .testimonial .carousel-inner .carousel-item img {
+    width: 70%;
+  }
+  /* Akhir Order */
+}
+
+@media screen and (min-width: 1600px) {
+  /* Awal Order */
+
+  /* Coursel */
+
+  .testimonial .carousel-inner {
+    width: 60%;
+  }
+
+  .testimonial .carousel-inner .carousel-item img {
+    width: 60%;
+  }
+  /* Akhir Order */
+}
