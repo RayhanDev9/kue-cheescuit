@@ -3,20 +3,16 @@ nav.navbar {
   font-family: "Roboto", serif;
   font-weight: 500;
   font-style: normal;
-  background-color: #A8D5BA;
-
+  background-color: #a8d5ba;
 }
 
 nav.navbar .collapse .navbar-nav .nav-item .nav-link,
 nav.navbar .container-fluid .navbar-brand {
-  color: #F5F0EA;
-
+  color: #383637;
 }
 
-nav.navbar .collapse .navbar-nav .nav-item .nav-link:hover
-{
-  color: #383637;
-
+nav.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #f5f0ea;
 }
 
 nav.navbar.collapse .navbar-nav {
@@ -27,7 +23,7 @@ nav.navbar.collapse .navbar-nav {
 /* Menu */
 
 div.container-fluid#menu {
-  background-color: #A8D5BA;
+  background-color: #a8d5ba;
   margin-top: 100px;
   padding-bottom: 100px;
 }
@@ -39,29 +35,28 @@ div.container-fluid#menu .sub-judul-menu h1 {
   font-family: "Roboto", serif;
   font-weight: 900;
   font-style: normal;
-  color: #F5F0EA;
+  color: #383637;
 }
 
 div.container-fluid .menu {
   width: 47%;
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 3px;
-
 }
 
 div.container-fluid .menu .rounded {
-  background-color: #F5F0EA;
-  transition: all .5s;
+  background-color: #a8d5ba;
+  transition: all 0.5s;
 }
 div.container-fluid .menu .rounded:hover {
-  background-color: #A8D5BA;
+  background-color: #f5f0ea;
 }
 
 div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 900;
   font-style: normal;
-  color: #F5F0EA;
+  color: #383637;
 }
 
 /* Akhir Menu */
@@ -78,7 +73,7 @@ div.container-fluid div.menu .container-harga {
   padding: 100px;
   font-family: "Roboto", serif;
   font-weight: 900;
-  color: #A8D5BA;
+  color: #383637;
 }
 
 .container-fluid#about .container-text-about h2 {
@@ -86,7 +81,7 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 800;
   padding-bottom: 30px;
-  color: #A8D5BA;
+  color: #383637;
 }
 
 .container-fluid#about .pembungkus-img-dan-text img .container-img-about {
@@ -98,7 +93,7 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 400;
   opacity: 1;
-  color: #A8D5BA;
+  color: #383637;
 }
 
 .container-fluid#about .container-text-about {
@@ -115,9 +110,9 @@ div.container-fluid div.menu .container-harga {
 .container-fluid#about .container-text-about .icon-link p {
   word-spacing: 3px;
   font-family: "Roboto", serif;
-  font-weight: 400;
+  font-weight: 600;
   opacity: 1;
-  color: #A8D5BA;
+  color: #383637;
 }
 
 /* Acordian About */
@@ -139,14 +134,14 @@ div.container-fluid div.menu .container-harga {
   word-spacing: 6px;
   font-family: "Roboto", serif;
   font-weight: 500;
-  color: #A8D5BA;
+  color: #383637;
 }
 
 .container-fluid#about .pembungkus-acordian .accordion p {
   word-spacing: 3px;
   font-family: "Roboto", serif;
   font-weight: 400;
-  color: #A8D5BA;
+  color: #383637;
 }
 
 /* Akhir About */
@@ -154,7 +149,6 @@ div.container-fluid div.menu .container-harga {
 /* Awal Order */
 
 .container-fluid#order {
-  background-color: #ccc;
   margin: 100px, 0;
   padding-bottom: 100px;
 }
@@ -164,7 +158,7 @@ div.container-fluid div.menu .container-harga {
   padding: 100px;
   font-family: "Roboto", serif;
   font-weight: 900;
-  color: #462a24;
+  color: #383637;
 }
 
 /* Coursel */
@@ -173,7 +167,7 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 800;
   /* padding: 100px; */
-  color: #462a24;
+  color: #383637;
 }
 
 .testimonial .carousel-inner .carousel-item img {
@@ -194,14 +188,12 @@ div.container-fluid div.menu .container-harga {
   padding: 100px;
   font-family: "Roboto", serif;
   font-weight: 900;
-  color: rgb(70, 42, 36);
+  color: #383637;
 }
 
 .container-contact#contact .pembungkus-icon-contact .inner-icon-contact {
   padding-bottom: 100px;
 }
-
-
 
 .container-contact#contact
   .pembungkus-icon-contact
@@ -240,7 +232,7 @@ div.container-fluid div.menu .container-harga {
   word-spacing: 6px;
   font-family: "Roboto", serif;
   font-weight: 600;
-  color: #462a24;
+  color: #383637;
   padding: 13px;
 }
 
@@ -253,10 +245,13 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 400;
   opacity: 0.9;
-  color: #462a24;
+  color: #383637;
 }
 
-.container-contact#contact .pembungkus-icon-contact .inner-icon-contact a:active {
+.container-contact#contact
+  .pembungkus-icon-contact
+  .inner-icon-contact
+  a:active {
   border: none;
 }
 
@@ -283,7 +278,7 @@ div.container-fluid div.menu .container-harga {
   font-weight: 800;
   padding-top: 80px;
   padding-bottom: 30px;
-  color: #462a24;
+  color: #383637;
 }
 
 .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form label,
@@ -292,8 +287,8 @@ div.container-fluid div.menu .container-harga {
   .pembungkus-form-dan-h2
   .pembungkus-form
   input::placeholder,
-  .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form textarea,
-  .container-contact#contact
+.container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form textarea,
+.container-contact#contact
   .pembungkus-form-dan-h2
   .pembungkus-form
   textarea::placeholder {
@@ -301,7 +296,7 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 400;
   opacity: 0.9;
-  color: #462a24;
+  color: #383637;
 }
 
 .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form .btn {
@@ -310,8 +305,8 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 600;
   opacity: 0.9;
-  background-color: #462a24;
-  color: white;
+  background-color: #a8d5ba;
+  color: #383637;
   width: 25%;
 }
 
@@ -333,18 +328,16 @@ footer .container-fluid {
   padding: 0;
 }
 footer .pembungkus-footer {
-  background-color: #462a24;
-  background-color: #FFD700;
+  background-color: #a8d5ba;
   padding-top: 60px;
 }
 
 footer .pembungkus-footer .info-footer {
   padding-bottom: 100px;
-
 }
 
-footer .pembungkus-footer .info-footer h5{
-  color: #462a24;
+footer .pembungkus-footer .info-footer h5 {
+  color: #383637;
   word-spacing: 6px;
   font-family: "Roboto", serif;
   font-weight: 500;
@@ -359,24 +352,22 @@ footer .pembungkus-footer .info-footer a:active {
   border: none;
 }
 
-footer .pembungkus-footer .info-footer p{
-  color: #462a24;
+footer .pembungkus-footer .info-footer p {
+  color: #383637;
   word-spacing: 3px;
   font-family: "Roboto", serif;
   font-weight: 400;
   opacity: 0.9;
-
 }
 
 footer .pembungkus-footer-text {
-  background-color: #462a24;
+  background-color: #383637;
   padding-block: 25px;
-  color: #FFD700;
+  color: #f5f0ea;
   word-spacing: 3px;
   font-family: "Roboto", serif;
   font-weight: 400;
   opacity: 0.9;
-
 }
 
 /* Akhir Footer */
@@ -416,7 +407,7 @@ footer .pembungkus-footer-text {
     margin-top: -35%;
   }
 
-  .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form .btn  {
+  .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form .btn {
     width: 50%;
   }
   /* Akhir Contact */
@@ -455,7 +446,7 @@ footer .pembungkus-footer-text {
   /* Akhir Order */
 
   /* Contact */
-  .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form .btn  {
+  .container-contact#contact .pembungkus-form-dan-h2 .pembungkus-form .btn {
     width: 50%;
   }
 }
@@ -528,7 +519,7 @@ footer .pembungkus-footer-text {
 @media screen and (min-width: 992px) {
   /* Navbar */
   nav.navbar .collapse .navbar-nav .nav-item a:hover {
-    border-bottom: 3px solid #383637;
+    border-bottom: 3px solid #f5f0ea;
   }
   /* Akhir Navbar */
 
