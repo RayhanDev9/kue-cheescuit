@@ -199,6 +199,8 @@ div.container-fluid div.menu .container-harga {
   padding-bottom: 100px;
 }
 
+
+
 .container-contact#contact
   .pembungkus-icon-contact
   .inner-icon-contact
@@ -250,6 +252,10 @@ div.container-fluid div.menu .container-harga {
   font-weight: 400;
   opacity: 0.9;
   color: #462a24;
+}
+
+.container-contact#contact .pembungkus-icon-contact .inner-icon-contact a:active {
+  border: none;
 }
 
 /* Maps */
@@ -347,6 +353,10 @@ footer .pembungkus-footer .info-footer a {
   padding: 0;
 }
 
+footer .pembungkus-footer .info-footer a:active {
+  border: none;
+}
+
 footer .pembungkus-footer .info-footer p{
   color: #462a24;
   word-spacing: 3px;
@@ -366,6 +376,7 @@ footer .pembungkus-footer-text {
   opacity: 0.9;
 
 }
+
 /* Akhir Footer */
 
 @media screen and (max-width: 576px) {
