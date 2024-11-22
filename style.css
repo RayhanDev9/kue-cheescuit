@@ -172,7 +172,8 @@ div.container-fluid div.menu .container-harga {
 
 .testimonial .carousel-inner .carousel-item img {
   width: 90%;
-  border: 10px;
+  border: 2px solid rgba(70, 42, 36, 0.3);
+  box-shadow: 10px 10px 15px rgba(70, 42, 36, 0.3);
 }
 
 /* Akhir Order */
