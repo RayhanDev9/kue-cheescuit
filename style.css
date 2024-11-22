@@ -12,7 +12,7 @@ nav.navbar .container-fluid .navbar-brand {
 }
 
 nav.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
-  color: #f5f0ea;
+  color: #FFF8E1;
 }
 
 nav.navbar.collapse .navbar-nav {
@@ -360,14 +360,24 @@ footer .pembungkus-footer .info-footer p {
   opacity: 0.9;
 }
 
+
+
 footer .pembungkus-footer-text {
   background-color: #383637;
-  padding-block: 25px;
-  color: #f5f0ea;
+  padding-block: 12px;
+  color: #FFF8E1;
   word-spacing: 3px;
   font-family: "Roboto", serif;
   font-weight: 400;
   opacity: 0.9;
+}
+
+footer .pembungkus-footer-text .footer-item p:nth-child(1) {
+  border-right: 2px solid #FFF8E1;
+}
+
+footer .pembungkus-footer-text .footer-item p {
+  padding: 7px;
 }
 
 /* Akhir Footer */
@@ -519,7 +529,7 @@ footer .pembungkus-footer-text {
 @media screen and (min-width: 992px) {
   /* Navbar */
   nav.navbar .collapse .navbar-nav .nav-item a:hover {
-    border-bottom: 3px solid #f5f0ea;
+    border-bottom: 3px solid #FFF8E1;
   }
   /* Akhir Navbar */
 
