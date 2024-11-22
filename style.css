@@ -44,9 +44,10 @@ div.container-fluid .menu {
   border-radius: 3px;
 }
 
-div.container-fluid .menu .rounded {
+div.container-fluid .menu img.rounded {
   /* background-color: #a8d5ba; */
   transition: all 0.5s;
+  border-radius: 0px !important;
 }
 div.container-fluid .menu .rounded:hover {
   background-color: #a8d5ba;
