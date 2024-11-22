@@ -3,17 +3,19 @@ nav.navbar {
   font-family: "Roboto", serif;
   font-weight: 500;
   font-style: normal;
-  background-color: white;
+  background-color: #A8D5BA;
+
 }
 
 nav.navbar .collapse .navbar-nav .nav-item .nav-link,
 nav.navbar .container-fluid .navbar-brand {
-  color: #462a24;
+  color: #F5F0EA;
+
 }
 
 nav.navbar .collapse .navbar-nav .nav-item .nav-link:hover
 {
-  color: #FFD700;
+  color: #383637;
 
 }
 
@@ -25,7 +27,7 @@ nav.navbar.collapse .navbar-nav {
 /* Menu */
 
 div.container-fluid#menu {
-  background-color: #ccc;
+  background-color: #A8D5BA;
   margin-top: 100px;
   padding-bottom: 100px;
 }
@@ -37,29 +39,29 @@ div.container-fluid#menu .sub-judul-menu h1 {
   font-family: "Roboto", serif;
   font-weight: 900;
   font-style: normal;
-  color: #462a24;
+  color: #F5F0EA;
 }
 
 div.container-fluid .menu {
   width: 47%;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 3px;
 
 }
 
 div.container-fluid .menu .rounded {
-  background-color: #462a24;
+  background-color: #F5F0EA;
   transition: all .5s;
 }
 div.container-fluid .menu .rounded:hover {
-  background-color: #FFD700;
+  background-color: #A8D5BA;
 }
 
 div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 900;
   font-style: normal;
-  color: #462a24;
+  color: #F5F0EA;
 }
 
 /* Akhir Menu */
@@ -76,7 +78,7 @@ div.container-fluid div.menu .container-harga {
   padding: 100px;
   font-family: "Roboto", serif;
   font-weight: 900;
-  color: #462a24;
+  color: #A8D5BA;
 }
 
 .container-fluid#about .container-text-about h2 {
@@ -84,7 +86,7 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 800;
   padding-bottom: 30px;
-  color: #462a24;
+  color: #A8D5BA;
 }
 
 .container-fluid#about .pembungkus-img-dan-text img .container-img-about {
@@ -96,7 +98,7 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 400;
   opacity: 1;
-  color: #462a24;
+  color: #A8D5BA;
 }
 
 .container-fluid#about .container-text-about {
@@ -115,7 +117,7 @@ div.container-fluid div.menu .container-harga {
   font-family: "Roboto", serif;
   font-weight: 400;
   opacity: 1;
-  color: #462a24;
+  color: #A8D5BA;
 }
 
 /* Acordian About */
@@ -137,14 +139,14 @@ div.container-fluid div.menu .container-harga {
   word-spacing: 6px;
   font-family: "Roboto", serif;
   font-weight: 500;
-  color: #462a24;
+  color: #A8D5BA;
 }
 
 .container-fluid#about .pembungkus-acordian .accordion p {
   word-spacing: 3px;
   font-family: "Roboto", serif;
   font-weight: 400;
-  color: #462a24;
+  color: #A8D5BA;
 }
 
 /* Akhir About */
@@ -526,7 +528,7 @@ footer .pembungkus-footer-text {
 @media screen and (min-width: 992px) {
   /* Navbar */
   nav.navbar .collapse .navbar-nav .nav-item a:hover {
-    border-bottom: 3px solid #FFD700;
+    border-bottom: 3px solid #383637;
   }
   /* Akhir Navbar */
 
