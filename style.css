@@ -23,7 +23,7 @@ nav.navbar.collapse .navbar-nav {
 /* Menu */
 
 div.container-fluid#menu {
-  background-color: #a8d5ba;
+  /* background-color: #a8d5ba; */
   margin-top: 100px;
   padding-bottom: 100px;
 }
@@ -40,16 +40,16 @@ div.container-fluid#menu .sub-judul-menu h1 {
 
 div.container-fluid .menu {
   width: 47%;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 3px;
 }
 
 div.container-fluid .menu .rounded {
-  background-color: #a8d5ba;
+  /* background-color: #a8d5ba; */
   transition: all 0.5s;
 }
 div.container-fluid .menu .rounded:hover {
-  background-color: #f5f0ea;
+  background-color: #a8d5ba;
 }
 
 div.container-fluid div.menu .container-harga {
